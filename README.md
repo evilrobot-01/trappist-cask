@@ -1,10 +1,13 @@
-# Trappist Launcher
+# Trappist Cask
 A few shell scripts and Git submodules to easily build and launch Trappist locally. 
 
 ## Prerequisites:
 - Install required packages and Rust as per https://docs.substrate.io/install
 - Install `yarn`
-- Clone this repository, making sure to initialise the submodules: `git clone --recursive https://github.com/evilrobot-01/trappist`
+- Clone this repository, making sure to initialise the submodules: e.g. 
+  ```
+  git clone --recursive https://github.com/evilrobot-01/trappist-cask
+  ``` 
 
 ## Build
 Build the `polkadot` (relay chain), `polkadot-parachain` (asset reserve), `trappist` and `base` binaries using the `build` script:
