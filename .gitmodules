@@ -4,8 +4,8 @@
 [submodule "cumulus"]
 	path = cumulus
 	url = https://github.com/paritytech/cumulus
-	branch = polkadot-v0.9.30
+	branch = polkadot-v0.9.37
 [submodule "polkadot"]
 	path = polkadot
 	url = https://github.com/paritytech/polkadot
-	branch = release-v0.9.30
+	branch = release-v0.9.37
